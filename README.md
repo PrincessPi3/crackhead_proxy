@@ -41,8 +41,8 @@ or
 ffuf -w wordlist.txt -u https://url.domain/FUZZ -x http://localhost:420
 ```
 
-##PROJECTS USED
-###Give them a hot look
+## PROJECTS USED
+### Give them a hot look
 * [slrp](https://github.com/nfx/slrp)
 * [mubeng](https://github.com/kitabisa/mubeng)
 * [jq](https://github.com/jqlang/jq)
