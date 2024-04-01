@@ -1,0 +1,14 @@
+app:
+  state: $HOME/.slrp/data
+  sync: 1m
+log:
+  level: info
+  format: pretty
+server:
+  addr: "127.0.0.1:8089"
+  read_timeout: 15s
+mitm:
+  addr: "127.0.0.1:8090"
+  read_timeout: 15s
+  idle_timeout: 15s
+  write_timeout: 15s
