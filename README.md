@@ -11,31 +11,32 @@ This was shitcoded while mentally impared. Expect issues.
 * Dont do crimes
 
 ## INSTALL
-``
+```
 sudo apt install jq screen curl
 cd ~
 wget <releaseurl>
 tar xvf <releasename>
-``
+```
 ## USE
-``
+```
 cd ~/<releasename>
 ./run_d.sh
-``
+```
 then run your app with the HTTP proxy `http://localhost:420`
 ## STOP
-``
+```
 Ctrl+C
 ./kill.sh
-``
+```
+
 ## TEST
-``
+```
 curl -D - --proxy-insecure -x http://localhost:420 -k https://canhazip.com
-``
+```
 or
-``
-./test_proxy.sh
-``
+```
+    ./test_proxy.sh
+```
 
 
 ##PROJECTS USED
