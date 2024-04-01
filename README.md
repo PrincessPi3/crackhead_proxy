@@ -35,7 +35,7 @@ curl -D - --proxy-insecure -x http://localhost:420 -k https://canhazip.com
 ```
 or
 ```
-    ./test_proxy.sh
+./test_proxy.sh
 ```
 
 
